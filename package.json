@@ -1,0 +1,24 @@
+{
+  "name": "timmy.js",
+  "version": "1.0.0",
+  "description": "Javascript utility for logging and measuring timings in application testing.",
+  "main": "timmy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liam-betsworth/timmy.git"
+  },
+  "keywords": [
+    "timing",
+    "events",
+    "logging"
+  ],
+  "author": "liam betsworth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liam-betsworth/timmy/issues"
+  },
+  "homepage": "https://github.com/liam-betsworth/timmy#readme"
+}
