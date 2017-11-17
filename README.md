@@ -60,7 +60,7 @@ This will record when the journey started and ended, giving a total completion t
 To reset all timings and logs, call the `reset` function:
 
 ```
-    timmy.reset();
+timmy.reset();
 ```
 
 ### Output
@@ -70,14 +70,14 @@ To reset all timings and logs, call the `reset` function:
 To get all data in a preformatted output, use the `out` function.
 
 ```
-jimmy.out();
+timmy.out();
 <- '<table>…</table>'
 ```
 
 `Out` has an optional parameter `event`, which is the name of the event you would like to filter by. This allows the you to seperate preformatted output:
 
 ```
-jimmy.out("addUser");
+timmy.out("addUser");
 <- '<table>…</table>'
 ```
 
@@ -86,14 +86,14 @@ jimmy.out("addUser");
 To get the raw log data, use the `data` function:
 
 ```
-jimmy.data();
+timmy.data();
 <- [{…},{…},{…}]
 ```
 
 Similar to `out`, `data` also has the optional parameter `event`, which allows you to filter which data is returned by event name.
 
 ```
-jimmy.data('/search');
+timmy.data('/search');
 <- [{…},{…}]
 ```
 
